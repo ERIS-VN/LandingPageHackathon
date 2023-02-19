@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Oswald:wght@300&family=Roboto&family=Roboto+Condensed:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0px;
+    background-color: rgb(224, 224, 224);
+}
+
+.body-wrapper {
+    min-height: 980px;
+}
+
+header {
+    background-color: white;
+}
+
+.header {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo img {
+    width: 250px;
+}
+
+.header .header-content-list {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+
+.header .header-content-list a {
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    font-family: 'Oswald', sans-serif;
+}
+
+.header .header-content-list a:hover {
+    color: rgb(139, 56, 218);
+    display: block;
+    border-bottom: 1px solid;
+}
+
+.header .header-content-list .active {
+    color: rgb(139, 56, 218);
+    display: block;
+    border-bottom: 1px solid;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    padding: 30px 0px;
+    background-color: white;
+}
+
+footer img {
+    height: 200px;
+    padding: 0px 30px;
+}
+
+footer h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer p {
+    font-family: 'Barlow Condensed', sans-serif;
+    margin: 0px;
+    line-height: 24px;
+}
+
+.f-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 33.3333333%;
+}
+
+.col-4 {
+    width: 25%;
+}
+
+.col-8 {
+    width: 12.5%;
+}
+
+.text-yellow {
+    display: contents;
+    color: rgb(255, 230, 0);
+}
+
+.text-purple {
+    display: contents;
+    color: #673ab7;
+}
+
+.main-page {
+    height: 870px;
+    background: url('/assests/img/bg.webp');
+}
+
+.main-page .bn-logo {
+    width: 180px;
+}
+
+.main-page .container {
+    padding: 60px 0px;
+}
+
+.main-page img {
+    width: 100%;
+}
+
+.main-page .text-design {
+    font-family: 'Oswald', sans-serif;
+    font-size: 90px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.main-page .text-lp {
+    font-family: 'Oswald', sans-serif;
+    font-size: 90px;
+    color: aliceblue;
+    font-weight: bold;
+    line-height: 75px;
+    margin-bottom: 40px;
+}
+
+.main-page i {
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.main-page p {
+    padding-top: 30px;
+    font-size: 16px;
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+}
+
+.main-page .rgn-btn {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: rgb(226, 43, 128);
+    width: fit-content;
+    padding: 16px 50px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.main-page .rgn-btn:hover {
+    background-color: rgb(126, 31, 214);
+}
+
+
+.info-list {
+    padding: 60px 0px;
+}
+
+.info-list .info-wrapper {
+    padding: 0px 25px;
+    border-radius: 20px;
+    margin: 0px 8px;
+    background-image: url(/assests/img/info-bg.webp);
+    padding-bottom: 25px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 436px;
+}
+
+.info-list .info-wrapper h2 {
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+    padding: 30px 0px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.info-list .info-wrapper .info-contents {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: aliceblue;
+    font-size: 19px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+.info-list .info-wrapper .info-contents:last-child {
+    margin: 0px;
+}
+
+.info-list .info-wrapper .info-contents .date {
+    color: rgb(36, 36, 36);
+    background-color: aliceblue;
+    width: fit-content;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 7px 50px;
+}
+
+.info-list .info-wrapper .info-contents .last-data {
+    color: aliceblue;
+    background-color: rgb(195, 43, 226);
+    width: fit-content;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 7px 50px;
+}
+
+
+.info-list img {
+    width: 100%;
+}
+
+.info-list .info-wrapper .top-1 {
+    padding: 0px 20px;
+}
